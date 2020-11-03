@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="168125" started-at="2020-11-02T19:14:55 MST" finished-at="2020-11-02T19:17:43 MST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="168125" started-at="2020-11-02T19:14:55 MST" finished-at="2020-11-02T19:17:43 MST">
+      <class name="com.dollardays.testcases.HomePageDisplay">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="beforeClass" is-config="true" duration-ms="11" started-at="2020-11-02T19:14:55 MST" finished-at="2020-11-02T19:14:55 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="setUpBrowser" is-config="true" duration-ms="9775" started-at="2020-11-02T19:14:55 MST" finished-at="2020-11-02T19:15:05 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="CheckDisplay(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="CheckDisplay" duration-ms="107634" started-at="2020-11-02T19:15:05 MST" data-provider="dd-dataprovider" finished-at="2020-11-02T19:16:53 MST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Valid Login Credentials, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=Home, UserName=srikanthtesting100@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDisplay -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="quit" is-config="true" duration-ms="4974" started-at="2020-11-02T19:16:53 MST" finished-at="2020-11-02T19:16:58 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="setUpBrowser" is-config="true" duration-ms="8185" started-at="2020-11-02T19:16:58 MST" finished-at="2020-11-02T19:17:06 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="SignUpDealsBlank(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="SignUpDealsBlank" duration-ms="8435" started-at="2020-11-02T19:17:06 MST" data-provider="dd-dataprovider" finished-at="2020-11-02T19:17:14 MST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Blank Login Credentials, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=Home, UserName=, TCID=TC3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpDealsBlank -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="quit" is-config="true" duration-ms="4988" started-at="2020-11-02T19:17:14 MST" finished-at="2020-11-02T19:17:19 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="setUpBrowser" is-config="true" duration-ms="10014" started-at="2020-11-02T19:17:19 MST" finished-at="2020-11-02T19:17:29 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="SignUpDealsInvalid(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="SignUpDealsInvalid" duration-ms="8424" started-at="2020-11-02T19:17:29 MST" data-provider="dd-dataprovider" finished-at="2020-11-02T19:17:38 MST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Invalid Login Credentials, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=Home, UserName=d@d.com, TCID=TC2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpDealsInvalid -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="quit" is-config="true" duration-ms="4995" started-at="2020-11-02T19:17:38 MST" finished-at="2020-11-02T19:17:43 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.HomePageDisplay@57175e74]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-11-02T19:17:43 MST" finished-at="2020-11-02T19:17:43 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dollardays.testcases.HomePageDisplay -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
